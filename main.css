@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
 
 #div-header{
@@ -85,6 +85,7 @@ a{
 
 .divProdutos article p{
     color: #333;
+    height: 10%;
     font-size: .7em;
     margin-bottom: 10%;
 }
@@ -107,7 +108,7 @@ a{
 
 footer{
     margin-top: 50px;
-    height: 80px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,4 +116,8 @@ footer{
 
 }
 
-
+footer p{
+    display: block;
+    margin: 10% 0;
+    text-align: center;
+}
