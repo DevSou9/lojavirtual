@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#div-header{
+    height: 55px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;    
+}
+
+#div-header header{
+    width: 80vw;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+#div-header header h1{
+    font-size: 1.2em;
+    color: #D14805 ;
+}
+
+#div-header header div nav li{
+    display: inline;
+    margin: 0 10px 0 16px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+}
+
+#div-body{
+    max-width: 1320px;
+  
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+#sobre{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 6%;
+}
+
+#sobre-texto{
+    margin-left: 5%;
+    text-align: left;
+}
+
+#div-body main img{
+    width: 100%;
+    
+} 
+
+
+.divProdutos{
+   display: grid;
+   grid-template-columns: repeat(4, 24.25%);
+   column-gap: 1%;
+   row-gap: 5%;
+}
+
+.divProdutos article{
+    width: 100%;
+}
+
+.divProdutos article img{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.divProdutos article h3{
+    width: 100%;
+    margin-bottom: 10%;
+    font-size: 1em;
+}
+
+.divProdutos article p{
+    color: #333;
+    font-size: .7em;
+    margin-bottom: 10%;
+}
+
+.div-h2{
+    font-style: italic;
+    margin-bottom: 4%;
+    border-bottom: solid 1px #D14805;
+}
+
+.divProdutos article button{
+    width: 100%;
+    height: auto;
+    font-size: 0.8em;
+    padding: 1.3% 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: #D10410;
+}
+
+footer{
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dedede8a;
+
+}
+
+
